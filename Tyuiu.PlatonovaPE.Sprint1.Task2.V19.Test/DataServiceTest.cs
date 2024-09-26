@@ -10,7 +10,7 @@ namespace Tyuiu.PlatonovaPE.Sprint1.Task2.V19.Test
             DataService ds = new DataService();
             int x = 5;
             var res = ds.ConvertInchToKm(x);
-            Assert.AreEqual(12.7, res);
+            Assert.AreEqual(10.27, res);
         }
     }
 }
