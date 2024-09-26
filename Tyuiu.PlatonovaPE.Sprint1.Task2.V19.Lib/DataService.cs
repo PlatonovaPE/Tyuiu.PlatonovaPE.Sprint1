@@ -5,7 +5,7 @@ namespace Tyuiu.PlatonovaPE.Sprint1.Task2.V19.Lib
     {
         public double ConvertInchToKm(int value)
         {
-            return Math.Round(value * 0.0254);
+            return Math.Round(value * 0.0254, 3);
 
         }
     }
