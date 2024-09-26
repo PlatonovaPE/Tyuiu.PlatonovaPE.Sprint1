@@ -8,9 +8,9 @@ namespace Tyuiu.PlatonovaPE.Sprint1.Task2.V19.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            int x = 5;
+            int x = 2;
             var res = ds.ConvertInchToKm(x);
-            Assert.AreEqual(10.27, res);
+            Assert.AreEqual(0,05, res);
         }
     }
 }
