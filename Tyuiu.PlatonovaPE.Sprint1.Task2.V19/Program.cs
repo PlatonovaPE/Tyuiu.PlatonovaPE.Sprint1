@@ -29,7 +29,7 @@ namespace Tyuiu.PlatonovaPE.Sprint1.Task1.V19
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                   *");
             Console.WriteLine("********************************************************************************");
-            Console.WriteLine("Расстояние в метрах Х -" + ds.ConvertInchToKm(x));
+            Console.WriteLine("Расстояние в метрах Х =" + ds.ConvertInchToKm(x));
             Console.ReadLine();
 
         }

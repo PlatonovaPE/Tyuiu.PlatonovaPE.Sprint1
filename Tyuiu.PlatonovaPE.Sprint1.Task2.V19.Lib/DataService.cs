@@ -5,7 +5,7 @@ namespace Tyuiu.PlatonovaPE.Sprint1.Task2.V19.Lib
     {
         public double ConvertInchToKm(int value)
         {
-            return value * value;
+            return value * 2.54;
         }
     }
 }
