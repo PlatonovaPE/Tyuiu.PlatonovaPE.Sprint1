@@ -12,7 +12,7 @@ namespace Tyuiu.PlatonovaPE.Sprint1.Task3.V9
             Console.WriteLine("* Исходные данные                                                              *");
             Console.WriteLine("********************************************************************************");
 
-            int minutes = 150;
+            int minutes = 46;
 
 
             Console.WriteLine("* Количество минут = " + minutes                                                 );

@@ -9,7 +9,7 @@ namespace Tyuiu.PlatonovaPE.Sprint1.Task3.V9.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            int minutes = 60;
+            int minutes = 46;
             var res = ds.ConvertMinutesToHours(minutes);
             Assert.AreEqual(2.30, res);
         }
