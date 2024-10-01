@@ -7,7 +7,7 @@ namespace Tyuiu.PlatonovaPE.Sprint1.Task3.V9.Lib
     {
         public double ConvertMinutesToHours(int minutes)
         {
-            return Math.Round(TimeSpan.FromMinutes(minutes).TotalHours, 6);
+            return Math.Floor(TimeSpan.FromMinutes(minutes).TotalHours);
         }
     }
 }
