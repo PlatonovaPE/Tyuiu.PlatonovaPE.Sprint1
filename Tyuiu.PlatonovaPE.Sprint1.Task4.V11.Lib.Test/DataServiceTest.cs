@@ -10,10 +10,10 @@ namespace Tyuiu.PlatonovaPE.Sprint1.Task4.V11.Lib.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 2;
-            double y = 2;
+            double x = 5;
+            double y = 5;
             var res = ds.Calculate(x, y);
-            Assert.AreEqual(0, 062, res);
+            Assert.AreEqual(0,001, res);
         }
     }
 }

@@ -28,7 +28,7 @@ namespace Tyuiu.PlatonovaPE.Sprint1.Task4.V11
             Console.WriteLine("* Результат:                                                                   *");
             Console.WriteLine("********************************************************************************");
 
-            Console.WriteLine(" Math.Atan(x) / Math.Exp(2) = " + ds.Calculate(x, y));
+            Console.WriteLine(" Math.Atan(2) / Math.Exp(2) = " + ds.Calculate(x, y));
 
             Console.ReadKey();
 
