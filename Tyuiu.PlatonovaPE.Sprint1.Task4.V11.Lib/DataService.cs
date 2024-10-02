@@ -8,7 +8,7 @@ namespace Tyuiu.PlatonovaPE.Sprint1.Task4.V11.Lib
     {
         public double Calculate(double x, double y)
         {
-            var res = Math.Atan(x) / Math.Exp(2);
+            var res = Math.Atan(2) / Math.Exp(2);
             return res;
         }
     }

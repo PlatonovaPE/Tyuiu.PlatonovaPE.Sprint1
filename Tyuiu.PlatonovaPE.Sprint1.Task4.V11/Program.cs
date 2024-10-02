@@ -19,7 +19,7 @@ namespace Tyuiu.PlatonovaPE.Sprint1.Task4.V11
 
             x = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Введите значение У:");
+            Console.WriteLine("Введите значение Y:");
 
             y = Convert.ToInt32(Console.ReadLine());
 
